@@ -26,10 +26,10 @@ class MyApp extends StatelessWidget {
       ));
     } else {
       SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        statusBarColor: Colors.black,
+        statusBarColor: Color.fromARGB(250, 25, 25, 25),
         statusBarBrightness: Brightness.light,
         statusBarIconBrightness: Brightness.light,
-        systemNavigationBarColor: Colors.black,
+        systemNavigationBarColor: Color.fromARGB(250, 25, 25, 25),
         systemNavigationBarIconBrightness: Brightness.light,
       ));
     }
